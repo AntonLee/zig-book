@@ -515,6 +515,7 @@ zig_ast_check <- function(zig_code, options) {
 #'
 #' @return A string with the output of the Zig compiler operation.
 zig_compile_file <- function(file_path, zig_command) {
+  return(NULL)
   zig_cmd_path <- getOption("zig_exe_path")
   output <- system2(
     zig_cmd_path,
