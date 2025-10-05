@@ -38,11 +38,11 @@ execute:
 
 highlight-style: github
 format:
-  html:
-    theme:
-      light: [cosmo]
-      dark: [darkly, Assets/theme-dark.scss]
-  # epub:
-  #   toc: true
-  #   lang: en-US
-  #   date: "today"
+  # html:
+    # theme:
+      # light: [cosmo]
+      # dark: [darkly, Assets/theme-dark.scss]
+  epub:
+    toc: true
+    lang: en-US
+    date: "today"
